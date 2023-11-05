@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-branding {
+    background-color: #446084;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-inline: 160px;
+}
+
+.right-box-sup-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-sup {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-sup a {
+    padding-right: 10px;
+    padding-block: 1px;
+    border-radius: 1px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.nav-sup a:nth-child(1), .nav-sup a:nth-child(2) {
+    border-right: 1px solid #6c849c;
+}
+
+.social-nav-sup {
+    display: flex;
+    gap: 10px;
+}
+
+.main-navigation {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 160px;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.left-box-nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.logo {
+    color: #446084;
+    font-size: 36px;
+    font-family: 'Lobster', sans-serif;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    padding-inline: 10px;
+    text-decoration: none;
+    color: #121205;
+    font-family: 'Lato', sans-serif;
+}
+
+.right-box-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.account {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #88898c;
+    padding-block: 5px;
+}
+
+.account:first-child {
+    border-right: 1px solid #ebebeb;
+    border-radius: 1px;
+    padding-right: 10px;
+}

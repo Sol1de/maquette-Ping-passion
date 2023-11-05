@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.site-main-archive {
+    padding-inline: 160px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9da0a1;
+    padding-block: 20px 60px;
+}
+
+#change-black {
+    color: black;
+}
+
+#nb-produits {
+    font-size: 16px;
+    color: #777777;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 60px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.post-card a {
+    text-decoration: none;
+    color: #777777;
+    align-self: center;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+    outline: none;
+}
+
+.post-card a:hover {
+    color: #444444;
+}
+
+.post-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
